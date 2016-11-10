@@ -20,7 +20,8 @@ class Viking
   end
 
   def receive_attack(damage_dealt)
-    take_damage(damage_dealt) puts "#{name} took #{damage_dealt} damage and has #{health} health..."
+    take_damage(damage_dealt) 
+    puts "#{name} took #{damage_dealt} damage and has #{health} health..."
   end
 
   def pick_up_weapon(weapon)
